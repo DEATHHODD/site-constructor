@@ -1,0 +1,21 @@
+{
+  "name": "site-constructor",
+  "version": "1.0.0",
+  "description": "js pure app",
+  "main": "index.js",
+  "scripts": {
+    "serve": "parcel ./src/index.html -p 3000 --open --no-source-maps",
+    "build": "parcel build ./src/index.html"
+  },
+  "keywords": [
+    "js",
+    "javascript",
+    "site",
+    "cosntuctor"
+  ],
+  "author": "Petr <deathhodd@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.1.1"
+  }
+}
